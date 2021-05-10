@@ -73,5 +73,5 @@ let rec mapCharToString = (functionToString : char => string, aString: string, i
 
 let spell = (aString: string): string =>
 {
-	mapCharToString(spellLetter, aString, 0);
+	String.trim(mapCharToString(spellLetter, aString, 0))
 }
