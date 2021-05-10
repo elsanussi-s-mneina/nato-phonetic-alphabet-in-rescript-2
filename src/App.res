@@ -1,5 +1,3 @@
-%%raw(`import './App.css';`)
-
 @react.component
 let make = () => {
   let (outputText, setOutputText) = React.useState(() => "");

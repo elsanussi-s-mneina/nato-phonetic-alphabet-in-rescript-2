@@ -5,7 +5,6 @@
 @scope(("import", "meta", "hot")) @val
 external accept: unit => unit = "accept"
 
-%%raw(`import './index.css';`)
 
 ReactDOM.render(
   <React.StrictMode> <App /> </React.StrictMode>,
