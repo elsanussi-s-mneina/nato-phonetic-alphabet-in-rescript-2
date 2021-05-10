@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+		<meta name="description" content="Convert English text to spelling in NATO Phonetic Spelling Alphabet automatically.">
+		<meta name="keywords" content="NATO Phonetic Spelling Alphabet, spelling, alphabet, web application">
+		<meta name="author" content="Elsanussi Mneina">
+
+    <title>NATO Phonetic Alphabet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    h1
+    {
+      font-family: didot, serif;
+      font-size: larger;
+    }
+    h2
+    {
+      margin-top: 30px;
+      margin-bottom: 2px;
+      font-family: didot, serif;
+      font-size: large;
+    }
+    textarea
+    {
+      margin-left: 1em;
+      font-family: times, serif;
+      font-size: medium;
+    }
+    button
+    {
+      margin-left: 3em;
+      font-family: didot, serif;
+      font-size: medium;
+    }
+    #output
+    {
+      background-color: rgb(230, 230, 230);
+      # We gray out the output box to indicate that 
+      # the user cannot edit it.
+    }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script type="module" src="/dist/index.bs.js"></script>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
