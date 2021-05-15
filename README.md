@@ -11,6 +11,7 @@ I also sometimes implement the same project in other programming languages.
 1. Node (for running Javascript)
 2. Snowpack (for bundling files)
 You can install it locally with the following command:
+
 `npm install --save-dev snowpack`
 
 
@@ -35,6 +36,8 @@ Open http://localhost:8080 to view it in the browser.
 
 The page will reload if you make edits.
 You will also see any lint errors in the console.
+
+(Note: I had to refresh the web page the first time I ran npm start, but subsequent times worked immediately.)
 
 ### npm run build
 
